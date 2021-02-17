@@ -1,5 +1,6 @@
 pkg install openssh
 echo "Выберите язык приложения: 1 (English), 2 (Русский)"
+echo "(Select the application language)"
 read launch
 if [ $launch = "1" ]
 then
